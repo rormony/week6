@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+    <h2>Create Account</h2>
+    </header>
+
+    <form>
+        <div class="row">
+            <div class="input-group">
+                <label>First name *</label>
+                <input type="text" placeholder="enter your first name">
+            </div>
+
+            <div class="input-group">
+                <label>Last name *</label>
+                <input type="text" placeholder="enter your last name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <label>Email *</label>
+                <input type="email" placeholder="enter your email">
+            </div>
+
+            <div class="input-group">
+                <label>Password *</label>
+                <input type="password" placeholder="enter your password">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <label>Confirm Password *</label>
+                <input type="password" placeholder="enter your password again">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <label>Gender:</label><br>
+                <label><input type="radio" name="gender"> Male</label>
+
+                <label><input type="radio" name="gender"> Female</label>
+            </div>
+
+            <div class="input-group">
+                <label>Hobbies:</label><br>
+                <label><input type="checkbox"> Music</label>
+                <label><input type="checkbox"> Sports</label>
+                <label><input type="checkbox"> Travel</label>
+                <label><input type="checkbox"> Movies</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <label>Source of Income</label>
+                <select>
+                    <option>Employed</option>
+                    <option>Student</option>
+                    <option>Self-Employed</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Income</label>
+                <input type="range" min="0" max="100" value="20">
+                <span class="range-value">20K</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <label>Upload Profile Picture</label>
+                <input type="file">
+            </div>
+
+            <div class="input-group">
+                <label>Age</label>
+                <input type="number" value="18">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Bio</label>
+            <textarea placeholder=""></textarea>
+        </div>
+         <footer>
+        <div class="btn">
+             <button type="submit" >Create</button>
+        </div>
+        </footer>
+        
+    </form>
+</div>
+
+</body>
+</html>

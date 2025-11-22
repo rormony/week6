@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(to bottom, #d2eaf0, #85c1be);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 480px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.range-value {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #0a9278;
+}
+
+.btn {
+    /* width: 20%;
+    padding: 10px;
+    border: none;
+    background: #1abc9c;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center; */
+    /* text-align: center; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    
+    
+    
+
+}
+button{
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header{
+    background-color: #4444444b;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #4444444b;
+    padding: 10px;
+}
+button:hover {
+    background: #17a589;
+}
